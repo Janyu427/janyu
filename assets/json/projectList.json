@@ -1,0 +1,74 @@
+{
+    "result": [
+        {
+            "key": "playNext",
+            "title": "接著播放",
+            "itemNumber": "1",
+            "type": "companyProject",
+            "imgSrc": "/image/project/playNext.jpg",
+            "link": "https://Janyu427.github.io/nuxt-tei",
+            "tag": [
+                "React",
+                "Redux",
+                "Next.js",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "key": "subject",
+            "title": "Subject",
+            "itemNumber": "2",
+            "type": "companyProject",
+            "imgSrc": "/image/project/subject.jpg",
+            "link": "https://Janyu427.github.io/nuxt-tei",
+            "tag": [
+                "React",
+                "Redux",
+                "Next.js"
+            ]
+        },
+        {
+            "key": "QrCodeLogin",
+            "title": "QR Code login",
+            "itemNumber": "3",
+            "type": "companyProject",
+            "imgSrc": "/image/project/qrCodeLogin.jpg",
+            "link": "https://Janyu427.github.io/nuxt-tei",
+            "tag": [
+                "React",
+                "Redux",
+                "Next.js",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "key": "tei",
+            "title": "程翊室內裝修工程官網",
+            "itemNumber": "4",
+            "type": "sideProject",
+            "imgSrc": "/image/project/tei.jpg",
+            "link": "https://Janyu427.github.io/nuxt-tei",
+            "tag": [
+                "React",
+                "Redux",
+                "Next.js",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "key": "daiyao",
+            "title": "代曜工程官網",
+            "itemNumber": "5",
+            "type": "sideProject",
+            "imgSrc": "https://janyu427.github.io/website/case_daiyao.jpg",
+            "intro": "UI 設計、前端程式執行",
+            "link": "https://Janyu427.github.io/nuxt-daiyao",
+            "tag": [
+                "Front-end",
+                "Vue",
+                "Nuxt"
+            ]
+
+        }
+    ]
+}

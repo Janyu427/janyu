@@ -54,21 +54,6 @@
                 "Next.js",
                 "Tailwind CSS"
             ]
-        },
-        {
-            "key": "daiyao",
-            "title": "代曜工程官網",
-            "itemNumber": "5",
-            "type": "sideProject",
-            "imgSrc": "https://janyu427.github.io/website/case_daiyao.jpg",
-            "intro": "UI 設計、前端程式執行",
-            "link": "https://Janyu427.github.io/nuxt-daiyao",
-            "tag": [
-                "Front-end",
-                "Vue",
-                "Nuxt"
-            ]
-
         }
     ]
 }

@@ -1,0 +1,131 @@
+{
+    "result": [
+        {
+            "key": "playNext",
+            "title": "LiTV 接著播放",
+            "itemNumber": "1",
+            "type": "companyProject",
+            "imgSrc": "/image/project/playNext.jpg",
+            "intro": "在影片的最後一集片尾時，於 Player 呈現推薦影片，並設定倒數機制，自動播放下一部影片。",
+            "tech": [
+                "React", 
+                "Redux", 
+                "Next.js", 
+                "Tailwind CSS"
+            ],
+            "challenge": [
+                "需取得當前播放秒數，判斷是否到達片尾播放時機。",
+                "部分影片沒有片尾，仍需在影片結束時顯示推薦影片。",
+                "Player 互動影響推薦影片顯示，若推薦影片已顯示，進入全螢幕後仍需保持可見，若點擊集數 or 影片介紹按鈕，需隱藏推薦影片，關閉後則恢復顯示。",
+                "倒數時若有 Player 互動（全螢幕變更除外），暫停倒數，並在互動結束後繼續倒數。"
+            ],
+            "solution": [
+                "運用影片的 event callback 取得當前播放秒數，判斷是否到達片尾播放、影片結束時間點。",
+                "在符合條件時渲染推薦影片 template，並使用 early return 避免重複 re-render。",
+                "設置變數判斷影片是否播畢，並檢查 player 內是否已有推薦影片，有推薦影片以外的互動內容時，暫停倒數，推薦影片再度出現後，倒數重新開始。"
+            ],
+            "codeSrc": "",
+            "link": "",
+            "tag": [
+                "Web Development",
+                "React",
+                "Redux",
+                "Next.js",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "key": "subject",
+            "title": "Ofiii 標籤篩選",
+            "itemNumber": "2",
+            "type": "companyProject",
+            "imgSrc": "/image/project/subject.jpg",
+            "intro": "讓影片播放頁可透過「年份」、「國別」、「語言」、「類型」、「演職員」等條件篩選出相關片單，並於新頁面呈現。",
+            "tech": [
+                "Web Development",
+                "React", 
+                "Redux", 
+                "Next.js"
+            ],
+            "challenge": [
+                "進入篩選頁面後，必須使用 infinite scroll 動態加載符合條件的影片，但還未滾動載入更多影片時，切換館別會篩選出少量結果。",
+                "切回原館別並滾動載入新影片後，再切回先前的館別，篩選結果變多，不符合邏輯。"
+            ],
+            "solution": [
+                "在 API 加入 contentType 參數，確保每次館別篩選時，請求的影片數據是正確的。",
+                "切換館別時重置當前列表，避免無法預測的篩選結果。"
+            ],
+            "codeSrc": "",
+            "link": "",
+            "tag": [
+                "Front-end",
+                "Vue",
+                "Nuxt"
+            ]
+        },
+        {
+            "key": "qrCodeLogin",
+            "title": "LiTV QR Code login",
+            "itemNumber": "3",
+            "type": "companyProject",
+            "imgSrc": "/image/project/qrCodeLogin.jpg",
+            "intro": "用戶可掃描 PC 版網頁的 QR Code，在手機上驗證後，讓 Mobile & PC 版網頁自動登入帳號。",
+            "tech": [
+                "React", 
+                "Redux", 
+                "Next.js", 
+                "Tailwind CSS"
+            ],
+            "challenge": [
+                "API 調用需要 Token，無法直接從前端傳遞。", 
+                "需確保前端與後端之間的安全性，避免 Token 暴露。"
+            ],
+            "solution": [
+                "調整原登入流程，新增 QR Code 掃描模式。",
+                "建立一個後端 Proxy 來橋接 API 請求，讓前端無需直接傳遞 Token。",
+                "前端請求 Proxy，Proxy 代為處理 API 調用，並將結果回傳前端，轉換成 QR Code 顯示。",
+                "持續監聽 QR Code 掃描狀態，判斷 QR Code 是否過期，確保用戶能完成登入。"
+            ],
+            "codeSrc": "",
+            "link": "",
+            "tag": [
+                "Web Development",
+                "React",
+                "Redux",
+                "Next.js",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "key": "tei",
+            "title": "程翊室內裝修工程官網",
+            "itemNumber": "4",
+            "type": "sideProject",
+            "imgSrc": "/image/project/tei.jpg",
+            "intro": "UI 設計、前端程式執行，運用 Vue3、Nuxt3 改寫",
+            "tech": [
+                "React", 
+                "Redux", 
+                "Next.js", 
+                "Tailwind CSS"
+            ],
+            "challenge": [
+                "首頁 Banner 滿版顯示，Navbar 位於其下方，滑動至 Navbar 位置時需固定在頂部，滑回 Banner 出現時取消固定。",
+                "產品列表頁滑動至分類 Tab 時，Tab 需固定在 Navbar 下方，滑回原位置時取消固定。"
+            ],
+            "solution": [
+                "使用 Redux 記錄觸發 fixed 所需的滑動高度。",
+                "透過 addEventListener 的 scroll event 計算當前滑動距離，判斷是否執行 fixed。"
+            ],
+            "codeSrc": "https://github.com/Janyu427/react-tei",
+            "link": "https://react-tei.vercel.app/",
+            "tag": [
+                "Web Development",
+                "React",
+                "Redux",
+                "Next.js",
+                "Tailwind CSS"
+            ]
+        }
+    ]
+}

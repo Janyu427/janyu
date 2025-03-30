@@ -48,25 +48,13 @@ const App = () => {
 
             <header className={`fixed w-[100%] top-0 left-0 z-10 ${bgColor}`}>
                 <div className="flex justify-between items-center w-[90%] h-[90px] max-w-[1200px] mx-auto">
-                    <Link className="logo_box" href="/" title="Janyu" target="_self">
+                    <Link href="/" title="Janyu" target="_self">
                         <Image className="h-[100%]" src={logo} alt="Janyu" width="104" height="54" />
                     </Link>
                     <div className="flex items-center">
                         <Link href="/" title="作品案例" target="_self">作品案例</Link>
                         <Link className="ml-[30px]" href="/about" title="關於我">關於我</Link>
                         <div className="ml-[30px] cursor-pointer" onClick={() => handleScroll()}>與我聯繫</div>
-
-                        {/* <ul className="flex">
-                            <li className="ml-[30px]">
-                                <Link className="relative" href="/" title="作品案例" target="_self">作品案例</Link>
-                            </li>
-                            <li className="ml-[30px]">
-                                <Link className="relative" href="/about" title="關於我" target="_self">關於我</Link>
-                            </li>
-                            <li className="ml-[30px]">
-                                <a className="relative" href="" title="與我聯繫" target="_self">與我聯繫</a>
-                            </li>
-                        </ul> */}
                     </div>
                 </div>
             </header>

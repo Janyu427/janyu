@@ -86,7 +86,7 @@ const App = (props: Props) => {
                                                                     return (
                                                                         props.meta.challenge.map((item: string, index: number) => {
                                                                             return (
-                                                                                <li className="listItem text-[#555] mb-[10px] list-disc" key={index}>{item}</li>
+                                                                                <li className="text-[#555] mb-[10px] list-disc" key={index}>{item}</li>
                                                                             );
                                                                         })
                                                                     )

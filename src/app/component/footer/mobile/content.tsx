@@ -58,13 +58,13 @@ const App = () => {
                 <p className="text-[12px]">© Janyu <span id="thisYear"></span> All Rights Reserved</p>
                 <div className="flex items-center">
                     <a className="mr-[25px]" href="https://github.com/Janyu427" title="Github" target="_blank">
-                        <Image className="" src={github} height={24} alt="Github" />
+                        <Image src={github} height={24} alt="Github" />
                     </a>
                     <a className="mr-[25px]" href="mailto:janyu427130@gmail.com" title="Email" target="_blank">
-                        <Image className="" src={email} height={24} alt="Email" />
+                        <Image src={email} height={24} alt="Email" />
                     </a>
-                    <a className="" href="https://www.linkedin.com/in/chen-yu-wu-design" title="Linkedin" target="_blank">
-                        <Image className="" src={linkedin} height={24} alt="Linkedin" />
+                    <a href="https://www.linkedin.com/in/chen-yu-wu-design" title="Linkedin" target="_blank">
+                        <Image src={linkedin} height={24} alt="Linkedin" />
                     </a>
                 </div>
             </div>

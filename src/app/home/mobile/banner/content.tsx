@@ -16,8 +16,7 @@ const App = async () => {
                     </div>
                     <div className="font-[500]">
                         <p className="text-[20px] text-[#555]">
-                            擁有4年的網頁設計經驗，<br />
-                            從同時學習設計和程式，到決心專注前端開發。
+                            專注於前端開發，擁有結合設計與程式的背景，致力於構建高效、可擴展的 Web 應用。
                         </p>
                     </div>
                 </div>

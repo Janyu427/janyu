@@ -18,7 +18,7 @@ const App = () => {
 
     const footerRef = useRef<HTMLDivElement>(null);
 
-    const scrollToViewSelector = useSelector((state: any) => {
+    const scrollToViewSelector = useSelector((state: { scrollToView: boolean }) => {
         return state.scrollToView
     });
 

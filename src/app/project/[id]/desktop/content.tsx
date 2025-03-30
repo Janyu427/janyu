@@ -1,4 +1,6 @@
 
+import type { meta } from "./index";
+
 import Image from "next/image";
 
 import Tag from "@/src/app/component/tag";
@@ -7,7 +9,7 @@ import codeIcon from "@/public/image/project/code.svg";
 import linkIcon from "@/public/image/project/link.svg";
 
 interface Props {
-    meta: any
+    meta: meta
 };
 
 const App = (props: Props) => {
@@ -32,7 +34,7 @@ const App = (props: Props) => {
                                                     (() => {
                                                         if (props.meta.tag && props.meta.tag.length) {
                                                             return (
-                                                                props.meta.tag.map((item: any, index: number) => {
+                                                                props.meta.tag.map((item: string, index: number) => {
                                                                     return (
                                                                         <Tag title={item} key={index} />
                                                                     );
@@ -82,7 +84,7 @@ const App = (props: Props) => {
                                                             {
                                                                 (() => {
                                                                     return (
-                                                                        props.meta.challenge.map((item: any, index: number) => {
+                                                                        props.meta.challenge.map((item: string, index: number) => {
                                                                             return (
                                                                                 <li className="text-[#555] list-disc" key={index}>{item}</li>
                                                                             );
@@ -109,7 +111,7 @@ const App = (props: Props) => {
                                                             {
                                                                 (() => {
                                                                     return (
-                                                                        props.meta.solution.map((item: any, index: number) => {
+                                                                        props.meta.solution.map((item: string, index: number) => {
                                                                             return (
                                                                                 <li className="text-[#555] list-disc" key={index}>{item}</li>
                                                                             );

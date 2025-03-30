@@ -7,6 +7,16 @@ import Tag from "@/src/app/component/tag";
 
 import projectListData from "@/assets/json/projectList.json";
 
+interface projectItem {
+    key: string,
+    title: string,
+    itemNumber: string,
+    type: string,
+    imgSrc: string,
+    link: string,
+    tag: string[]
+};
+
 const App = () => {
     return (
         <div className="design_case relative pt-[30px] pb-[60px] overflow-hidden linearCircleBg">
@@ -18,7 +28,7 @@ const App = () => {
                         (() => {
                             if (projectListData.result && projectListData.result.length) {
                                 return (
-                                    projectListData.result.map((item: any, index: number) => {
+                                    projectListData.result.map((item: projectItem, index: number) => {
                                         return (
                                             <div className="item w-[100%] mb-[30px]" key={index}>
                                                 <Link className="link" href={`/project/${item.itemNumber}`}>
@@ -32,7 +42,7 @@ const App = () => {
                                                                 (() => {
                                                                     if (item.tag && item.tag.length) {
                                                                         return (
-                                                                            item.tag.map((_item: any, _index: number) => {
+                                                                            item.tag.map((_item: string, _index: number) => {
                                                                                 return (
                                                                                     <Tag title={_item} key={_index} />
                                                                                 )

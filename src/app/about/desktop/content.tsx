@@ -6,6 +6,31 @@ import janyu from "@/public/image/about/janyu.jpg";
 
 import aboutData from "@/assets/json/about.json";
 
+interface experienceItem {
+    key: string,
+    title: string,
+    company: string,
+    time: string,
+    list: string[]
+};
+
+interface skillItem {
+    key: string,
+    title: string,
+    icon: string,
+    list: string[]
+};
+
+interface toolItem {
+    key: string,
+    list: toolListItem[]
+};
+
+interface toolListItem {
+    title: string,
+    imgSrc: string
+};
+
 const App = () => {
     return (
         <>
@@ -28,7 +53,7 @@ const App = () => {
                             (() => {
                                 if (aboutData.about.experience && aboutData.about.experience.length) {
                                     return (
-                                        aboutData.about.experience.map((item: any, index: number) => {
+                                        aboutData.about.experience.map((item: experienceItem, index: number) => {
                                             return (
                                                 <div className={clsx(
                                                     "list relative pl-[80px] before:content-[''] before:absolute before:top-[10px] before:left-[20px] before:w-[10px] before:h-[10px] before:rounded-[20px] before:bg-[#F5C76F] ",
@@ -47,7 +72,7 @@ const App = () => {
                                                             (() => {
                                                                 if (item.list && item.list.length) {
                                                                     return (
-                                                                        item.list.map((listItem: any, index: number) => {
+                                                                        item.list.map((listItem: string, index: number) => {
                                                                             return (
                                                                                 <li className="listItem text-[#555] list-disc" key={index}>{listItem}</li>
                                                                             );
@@ -75,7 +100,7 @@ const App = () => {
                             (() => {
                                 if (aboutData.about.skill && aboutData.about.skill.length) {
                                     return (
-                                        aboutData.about.skill.map((item: any, index: number) => {
+                                        aboutData.about.skill.map((item: skillItem, index: number) => {
                                             return (
                                                 <div className={clsx(
                                                     "list relative w-[calc(50%-60px)] pt-[45px] px-[45px] pb-[30px] rounded-[5px] bg-[#fff]",
@@ -94,7 +119,7 @@ const App = () => {
                                                                 (() => {
                                                                     if (item.list && item.list.length) {
                                                                         return (
-                                                                            item.list.map((listItem: any, index: number) => {
+                                                                            item.list.map((listItem: string, index: number) => {
                                                                                 return (
                                                                                     <li className="listItem text-[#555] list-disc" key={index}>{listItem}</li>
                                                                                 );
@@ -124,7 +149,7 @@ const App = () => {
                             (() => {
                                 if (aboutData.about.tool && aboutData.about.tool.length) {
                                     return (
-                                        aboutData.about.tool.map((item: any, index: number) => {
+                                        aboutData.about.tool.map((item: toolItem, index: number) => {
                                             return (
                                                 <div className="item relative pb-[30px]" key={index}>
                                                     <h3 className="subtitle text-[20px] text-[#121212] font-[500] mb-[15px]">{item.key}</h3>
@@ -133,7 +158,7 @@ const App = () => {
                                                             (() => {
                                                                 if (item.list && item.list.length) {
                                                                     return (
-                                                                        item.list.map((_item: any, _index: number) => {
+                                                                        item.list.map((_item: toolListItem, _index: number) => {
                                                                             return (
                                                                                 <div className="list mx-[13px] mb-[30px]" key={_index}>
                                                                                     <div className="icon_box flex justify-center items-center mx-auto w-[96px] h-[96px] rounded-[5px] bg-[#f2f2f2]">

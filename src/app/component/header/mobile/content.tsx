@@ -18,7 +18,12 @@ const App = () => {
     // const [openMenu, setOpenMenu] = useState(false);
     const [bgColor, setBgColor] = useState<string>("");
 
-    const mobileMenuReducer = useSelector((state: any) => {
+    const mobileMenuReducer = useSelector((
+        state: {
+            header: {
+                mobileMenu: boolean
+            }
+        }) => {
         return state.header.mobileMenu;
     });
 

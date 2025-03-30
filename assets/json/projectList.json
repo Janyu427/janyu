@@ -2,7 +2,7 @@
     "result": [
         {
             "key": "playNext",
-            "title": "接著播放",
+            "title": "LiTV Player 接著播放",
             "itemNumber": "1",
             "type": "companyProject",
             "imgSrc": "/image/project/playNext.jpg",
@@ -16,7 +16,7 @@
         },
         {
             "key": "subject",
-            "title": "Subject",
+            "title": "Ofiii 標籤篩選",
             "itemNumber": "2",
             "type": "companyProject",
             "imgSrc": "/image/project/subject.jpg",

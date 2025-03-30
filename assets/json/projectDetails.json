@@ -2,7 +2,7 @@
     "result": [
         {
             "key": "playNext",
-            "title": "LiTV 接著播放",
+            "title": "LiTV Player 接著播放",
             "itemNumber": "1",
             "type": "companyProject",
             "imgSrc": "/image/project/playNext.jpg",

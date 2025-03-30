@@ -1,0 +1,166 @@
+{
+    "about": {
+        "intro": {
+            "title": "我是 Janyu",
+            "text": "擁有 5 年以上的開發經驗，從 UI/UX 設計延伸至前端工程，熟悉 React、Vue 等框架，熟悉前後端數據流，能有效優化資料傳遞與應用效能。擅長從使用者體驗出發，評估技術可行性，並與跨團隊協作推進專案，致力於打造兼具設計感與效能的應用程式。"
+        },
+        "experience": [
+            {
+                "key": "1",
+                "title": "軟體工程師",
+                "company": "替您錄科技股份有限公司",
+                "time": "2024年 5月 - now",
+                "list": [
+                    "開發與維護 Web 應用，使用 React、Next.js 等前端技術構建高效能、可擴展的介面",
+                    "API 串接與請求優化，處理資料流、異常錯誤等，提升前後端整合效能",
+                    "研究及分析技術可行性，提升產品體驗與效能",
+                    "與設計、後端、PM 協作，參與需求討論與技術規劃，確保專案順利推進"
+                ]
+            },
+            {
+                "key": "2",
+                "title": "前端工程師",
+                "company": "鼎新電腦股份有限公司",
+                "time": "2024年 2月 - 2024年 5月",
+                "list": [
+                    "運用 Vue、Figma，將設計概念轉譯為實際可操作的前端介面，並確保最佳的使用者體驗和跨平台的兼容性",
+                    "優化現有產品的使用者體驗",
+                    "GP表單系統維護，排除全公司同仁使用表單的問題"
+                ]
+            },
+            {
+                "key": "3",
+                "title": "網頁前端設計師",
+                "company": "台北數位廣告股份有限公司",
+                "time": "2019年 11月 - 2024年 2月",
+                "list": [
+                    "設計並實現前端程式，與 PM、設計師、工程師合作，規劃和執行各項開發需求",
+                    "專注於前端開發、UI/UX 設計，包括客製化、模板網頁，並確保最佳的使用者體驗和跨平台的兼容性",
+                    "積極參與使用者研究，並透過製作 Wireframe、Mockup 和 Prototype 原型，將設計概念轉譯為實際可操作的前端介面"
+                ]
+            },
+            {
+                "key": "4",
+                "title": "影片、平面設計",
+                "company": "新台豐國際事業有限公司",
+                "time": "2019年 6月 - 2019年 11月",
+                "list": [
+                    "與行銷人員討論產品短影片的流程",
+                    "負責所有的拍攝、剪輯產出",
+                    "製作社群平台所需的圖片、Banner"
+                ]
+            }
+        ],
+        "skill": [
+            {
+                "key": "1",
+                "title": "Web Developement",
+                "icon": "/image/about/frontend.svg",
+                "list": [
+                    "HTML5、CSS3、JavaScript (ES6+) 開發",
+                    "React、Next.js、Vue、Nuxt.js 前端框架應用",
+                    "TypeScript 型別安全開發",
+                    "RESTful API 串接，處理資料請求與錯誤處理",
+                    "前端效能優化",
+                    "Git 版本控制 與分支管理"
+                ]
+            },
+            {
+                "key": "1",
+                "title": "UI/UX Design",
+                "icon": "/image/about/uiux.svg",
+                "list": [
+                    "跨平台 UI 設計",
+                    "Wireframe 與 Prototype 製作，轉化概念為視覺方案",
+                    "Prototype 原型設計",
+                    "使用者研究與可用性測試，優化體驗設計",
+                    "熟悉 Figma、Adobe XD 等設計工具"
+                ]
+            }
+        ],
+        "tool": [
+            {
+                "key": "Web Development",
+                "list": [
+                    {
+                        "title": "React",
+                        "imgSrc": "/image/about/react.svg"
+                    },
+                    {
+                        "title": "Next.js",
+                        "imgSrc": "/image/about/nextJs.svg"
+                    },
+                    {
+                        "title": "TypeScript",
+                        "imgSrc": "/image/about/typeScript.svg"
+                    },
+                    {
+                        "title": "Tailwind Css",
+                        "imgSrc": "/image/about/tailwind.svg"
+                    },
+                    {
+                        "title": "HTML5",
+                        "imgSrc": "/image/about/html5.svg"
+                    },
+                    {
+                        "title": "CSS",
+                        "imgSrc": "/image/about/css3.svg"
+                    },
+                    {
+                        "title": "SASS",
+                        "imgSrc": "/image/about/sass.svg"
+                    },
+                    {
+                        "title": "Javascript",
+                        "imgSrc": "/image/about/js.svg"
+                    },
+                    {
+                        "title": "Vue",
+                        "imgSrc": "/image/about/vue.svg"
+                    },
+                    {
+                        "title": "Nuxt",
+                        "imgSrc": "/image/about/nuxt.svg"
+                    },
+                    {
+                        "title": "Gulp",
+                        "imgSrc": "/image/about/gulp.svg"
+                    },
+                    {
+                        "title": "Webpack",
+                        "imgSrc": "/image/about/webpack.svg"
+                    }
+                ]
+            },
+            {
+                "key": "Design",
+                "list": [
+                    {
+                        "title": "Figma",
+                        "imgSrc": "/image/about/figma.svg"
+                    },
+                    {
+                        "title": "Sketch",
+                        "imgSrc": "/image/about/sketch.svg"
+                    },
+                    {
+                        "title": "XD",
+                        "imgSrc": "/image/about/xd.svg"
+                    },
+                    {
+                        "title": "Photoshop",
+                        "imgSrc": "/image/about/ps.svg"
+                    },
+                    {
+                        "title": "Illustrator",
+                        "imgSrc": "/image/about/ai.svg"
+                    }
+                ]
+            }
+        ]
+
+        
+    }
+
+    
+}

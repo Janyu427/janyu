@@ -54,7 +54,7 @@ const App = () => {
                     <div className="flex items-center">
                         <Link href="/" title="作品案例" target="_self">作品案例</Link>
                         <Link className="ml-[30px]" href="/about" title="關於我">關於我</Link>
-                        <div className="ml-[30px]" onClick={() => handleScroll()}>與我聯繫</div>
+                        <div className="ml-[30px] cursor-pointer" onClick={() => handleScroll()}>與我聯繫</div>
 
                         {/* <ul className="flex">
                             <li className="ml-[30px]">

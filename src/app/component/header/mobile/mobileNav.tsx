@@ -49,7 +49,7 @@ const App = () => {
                 <div className="px-[5px] py-[15px] mb-[30px] border-b border-[#CFCFCF]">
                     <Link className="block text-[16px] text-[#121212] py-[15px]" href="/" title="作品案例" target="_self" onClick={() => clickLink()}>作品案例</Link>
                     <Link className="block text-[16px] text-[#121212] py-[15px]" href="/about" title="關於我" target="_self" onClick={() => clickLink()}>關於我</Link>
-                    <div className="py-[15px]" onClick={() => handleScroll()}>與我聯繫</div>
+                    <div className="py-[15px] cursor-pointer" onClick={() => handleScroll()}>與我聯繫</div>
                 </div>
                 <div className="flex items-center px-[5px]">
                     <a className="block items-center mr-[25px]" href="" title="Github" target="_blank">

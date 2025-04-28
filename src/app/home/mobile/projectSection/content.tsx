@@ -20,7 +20,7 @@ interface projectItem {
 const App = () => {
     return (
         <div className="relative pt-[30px] pb-[60px] overflow-hidden linearCircleBg">
-            <div className="relative w-[90%] mx-auto">
+            <div className="relative w-[90%] mx-auto z-10">
                 <SectionTitle title="作品案例" enTitle="Project" />
 
                 <div className="pt-[30px]">
@@ -37,7 +37,7 @@ const App = () => {
                                                     </div>
                                                     <div className="pl-[5px]">
                                                         <h2 className="text-[#121212] pb-[10px]">{item.title}</h2>
-                                                        <div className="flex items-center" >
+                                                        <div className="flex flex-wrap items-center" >
                                                             {
                                                                 (() => {
                                                                     if (item.tag && item.tag.length) {

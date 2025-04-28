@@ -59,7 +59,7 @@ const App = () => {
                 <div className="h-[90px]"></div>
             </div>
 
-            <header className={`fixed w-[100%] top-0 left-0 z-10 ${bgColor}`}>
+            <header className={`fixed w-[100%] top-0 left-0 z-20 ${bgColor}`}>
                 <div className="flex justify-between items-center w-[90%] h-[90px] mx-auto">
                     <Link href="/" title="Janyu" target="_self">
                         <Image className="h-[100%]" src={logo} alt="Janyu" width="104" height="54" />

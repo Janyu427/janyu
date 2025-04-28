@@ -40,7 +40,7 @@ const App = () => {
     };
 
     return (
-        <div className="fixed top-0 left-0 w-[100vw] h-[100vh] bg-[#fff] z-10 linearBg">
+        <div className="fixed top-0 left-0 w-[100vw] h-[100vh] bg-[#fff] z-20 linearBg">
             <div className="relative pt-[100px] px-[5%] pb-[5%] w-[90%] mx-auto">
                 <Link className="block mb-[60px]" href="/" title="Janyu" target="_self">
                     <Image src={logo} alt="Janyu" width="140" height="40" />

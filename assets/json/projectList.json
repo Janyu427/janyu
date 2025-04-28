@@ -11,6 +11,7 @@
                 "React",
                 "Redux",
                 "Next.js",
+                "Page Router",
                 "Tailwind CSS"
             ]
         },
@@ -24,7 +25,8 @@
             "tag": [
                 "React",
                 "Redux",
-                "Next.js"
+                "Next.js",
+                "Page Router"
             ]
         },
         {
@@ -38,6 +40,7 @@
                 "React",
                 "Redux",
                 "Next.js",
+                "Page Router",
                 "Tailwind CSS"
             ]
         },
@@ -52,6 +55,7 @@
                 "React",
                 "Redux",
                 "Next.js",
+                "App Router",
                 "Tailwind CSS"
             ]
         }

@@ -10,7 +10,8 @@
             "tech": [
                 "React", 
                 "Redux", 
-                "Next.js", 
+                "Next.js",
+                "Page Router",
                 "Tailwind CSS"
             ],
             "challenge": [
@@ -31,6 +32,7 @@
                 "React",
                 "Redux",
                 "Next.js",
+                "Page Router",
                 "Tailwind CSS"
             ]
         },
@@ -42,9 +44,9 @@
             "imgSrc": "/image/project/subject.jpg",
             "intro": "讓影片播放頁可透過「年份」、「國別」、「語言」、「類型」、「演職員」等條件篩選出相關片單，並於新頁面呈現。",
             "tech": [
-                "Web Development",
                 "React", 
-                "Redux", 
+                "Redux",
+                "Page Router",
                 "Next.js"
             ],
             "challenge": [
@@ -58,9 +60,11 @@
             "codeSrc": "",
             "link": "",
             "tag": [
-                "Front-end",
-                "Vue",
-                "Nuxt"
+                "Web Development",
+                "React",
+                "Redux",
+                "Page Router",
+                "Next.js"
             ]
         },
         {
@@ -73,7 +77,8 @@
             "tech": [
                 "React", 
                 "Redux", 
-                "Next.js", 
+                "Next.js",
+                "Page Router",
                 "Tailwind CSS"
             ],
             "challenge": [
@@ -93,6 +98,7 @@
                 "React",
                 "Redux",
                 "Next.js",
+                "Page Router",
                 "Tailwind CSS"
             ]
         },
@@ -106,7 +112,8 @@
             "tech": [
                 "React", 
                 "Redux", 
-                "Next.js", 
+                "Next.js",
+                "App Router",
                 "Tailwind CSS"
             ],
             "challenge": [
@@ -124,6 +131,7 @@
                 "React",
                 "Redux",
                 "Next.js",
+                "App Router",
                 "Tailwind CSS"
             ]
         }
